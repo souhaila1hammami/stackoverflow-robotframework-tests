@@ -1,0 +1,9 @@
+robotframework==6.1.1
+robotframework-browser==17.4.0
+robotframework-requests==0.9.4
+robotframework-pabot==2.16.0
+robotframework-datadriver==1.6.1
+robotframework-junitxml==1.0.0
+allure-robotframework==2.13.0
+requests==2.31.0
+pylint==3.0.2
