@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.1.1 (Python 3.13.7 on win32)" generated="20251001 22:12:27.582" rpa="false" schemaversion="4">
-<suite id="s1" name="Multi User Tests" source="c:\Users\Administrateur\Downloads\stackoverflow-test-project\tests\multi_user_tests.robot">
+<robot generator="Robot 6.1.1 (Python 3.13.7 on win32)" generated="20251007 14:41:24.167" rpa="false" schemaversion="4">
+<suite id="s1" name="Multi User Tests" source="c:\Users\Administrateur\Downloads\stackoverflow-robotframework-tests\tests\multi_user_tests.robot">
 <test id="s1-t1" name="Test Multiple Users Simulation" line="10">
 <kw name="Create List" library="BuiltIn">
 <var>@{response_times}</var>
 <doc>Returns a list containing given items.</doc>
-<msg timestamp="20251001 22:12:28.022" level="INFO">@{response_times} = [ ]</msg>
-<status status="PASS" starttime="20251001 22:12:28.022" endtime="20251001 22:12:28.022"/>
+<msg timestamp="20251007 14:41:24.672" level="INFO">@{response_times} = [ ]</msg>
+<status status="PASS" starttime="20251007 14:41:24.671" endtime="20251007 14:41:24.672"/>
 </kw>
 <for flavor="IN RANGE">
 <var>${user}</var>
@@ -18,18 +18,18 @@
 <var>${start}</var>
 <arg>epoch</arg>
 <doc>Returns the given time in the requested format.</doc>
-<msg timestamp="20251001 22:12:28.026" level="INFO">${start} = 1759349548</msg>
-<status status="PASS" starttime="20251001 22:12:28.025" endtime="20251001 22:12:28.026"/>
+<msg timestamp="20251007 14:41:24.674" level="INFO">${start} = 1759840884</msg>
+<status status="PASS" starttime="20251007 14:41:24.674" endtime="20251007 14:41:24.674"/>
 </kw>
 <kw name="Setup API Test" library="config">
 <kw name="Create Session" library="RequestsLibrary">
 <arg>stackoverflow</arg>
 <arg>${API_BASE_URL}</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20251001 22:12:28.029" level="INFO">Creating Session using : alias=stackoverflow, url=https://api.stackexchange.com/2.3, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20251001 22:12:28.028" endtime="20251001 22:12:28.029"/>
+<msg timestamp="20251007 14:41:24.676" level="INFO">Creating Session using : alias=stackoverflow, url=https://api.stackexchange.com/2.3, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20251007 14:41:24.676" endtime="20251007 14:41:24.677"/>
 </kw>
-<status status="PASS" starttime="20251001 22:12:28.028" endtime="20251001 22:12:28.030"/>
+<status status="PASS" starttime="20251007 14:41:24.675" endtime="20251007 14:41:24.678"/>
 </kw>
 <kw name="Get Latest Questions" library="stackoverflow_api">
 <var>${response}</var>
@@ -41,57 +41,57 @@
 <arg>site=stackoverflow</arg>
 <arg>pagesize=${pagesize}</arg>
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<msg timestamp="20251001 22:12:28.032" level="INFO">&amp;{params} = { order=desc | sort=creation | site=stackoverflow | pagesize=3 }</msg>
-<status status="PASS" starttime="20251001 22:12:28.031" endtime="20251001 22:12:28.032"/>
+<msg timestamp="20251007 14:41:24.679" level="INFO">&amp;{params} = { order=desc | sort=creation | site=stackoverflow | pagesize=3 }</msg>
+<status status="PASS" starttime="20251007 14:41:24.678" endtime="20251007 14:41:24.679"/>
 </kw>
 <kw name="GET" library="RequestsLibrary">
 <var>${response}</var>
 <arg>${API_BASE_URL}${QUESTIONS_ENDPOINT}</arg>
 <arg>params=${params}</arg>
 <doc>Sends a GET request.</doc>
-<msg timestamp="20251001 22:12:28.567" level="INFO">GET Request : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
+<msg timestamp="20251007 14:41:25.240" level="INFO">GET Request : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
  path_url=/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
  headers={'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg timestamp="20251001 22:12:28.568" level="INFO">GET Response : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
+<msg timestamp="20251007 14:41:25.240" level="INFO">GET Response : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
  status=200, reason=OK 
- headers={'Date': 'Wed, 01 Oct 2025 20:12:28 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '904', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'CF-Ray': '987e9d736ccde1e5-MRS', 'CF-Cache-Status': 'DYNAMIC', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'private', 'Content-Encoding': 'gzip', 'Set-Cookie': 'prov=30b7497d-4d6e-4246-a301-b57a0274229a; expires=Thu, 01 Oct 2026 20:12:28 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly, __cflb=02DiuEqtkS4jGaTk6jRLVowZ76Z4qeo48ovpmo7KbeXKJ; SameSite=Lax; path=/; expires=Thu, 02-Oct-25 19:12:28 GMT; HttpOnly, prov=30b7497d-4d6e-4246-a301-b57a0274229a; Path=/; HttpOnly; Domain=stackexchange.com, __cf_bm=B2bHEdp7cpQhiIqun7FTFqy3cFmPU3phbz_hkHP4VhY-1759349548-1.0.1.1-D5bCTnsN6iFgkdJeFpyHdTFl826USlAvas8pRGLeEt2k0i.PdV05uQSQitQX4UJkRaMoCiRL6zjlJ9WJMrDTeb5Ob7.dpE2bJWnPvZL8hAc; path=/; expires=Wed, 01-Oct-25 20:42:28 GMT; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None, _cfuvid=Fvlr14fwhfRQnfY99iaNjpwcIzgmb78sFCywdwaXv1g-1759349548249-0.0.1.1-604800000; path=/; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'accept-encoding', 'access-control-allow-credentials': 'false', 'access-control-allow-methods': 'GET, POST', 'content-security-policy': "upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com", 'x-clacks-overhead': 'GNU Terry Pratchett', 'x-content-type-options': 'nosniff', 'x-providence-cookie': '30b7497d-4d6e-4246-a301-b57a0274229a', 'x-request-guid': '07fa9d8c-57c8-4ee9-bf37-153e7fbff8af', 'x-worker-origin-response-time': '137000000'} 
- body={"items":[{"tags":["ios","payment","apple-developer","apple-developer-enterprise"],"owner":{"account_id":11568709,"reputation":71,"user_id":8476100,"user_type":"registered","profile_image":"https://lh5.googleusercontent.com/-h2R-rosfcgg/AAAAAAAAAAI/AAAAAAAAAOY/bwawONOnBKs/s256-rj/photo.jpg","display_name":"IMAD UL-HASSAN","link":"https://stackoverflow.com/users/8476100/imad-ul-hassan"},"is_answered":false,"view_count":2,"answer_count":0,"score":0,"last_activity_date":1759349442,"creation_date":1759349442,"question_id":79780434,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79780434/apple-developer-membership-renewal-issue","title":"Apple developer memberShip Renewal Issue"},{"tags":["r","gtsummary"],"owner":{"account_id":40973609,"reputation":157,"user_id":30055639,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/7cb0ab297214ae7085a898dabfaeb640?s=256&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2","display_name":"Ranjan Karmakar","link":"https://stackoverflow.com/users/30055639/ranjan-karmakar"},"is_answered":false,"view_count":5,"answer_count":0,"score":0,"last_activity_date":1759349174,"creation_date":1759349174,"question_id":79780432,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79780432/gtsummary-header-counts-with-tbl-strata-nested-stack","title":"GTSUMMARY Header counts with TBL_STRATA_NESTED_STACK"},{"tags":["docker","automation","n8n"],"owner":{"account_id":44165059,"reputation":1,"user_id":31611150,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/472ceba0d489ce7bd2b1e39f7790c274?s=256&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2","display_name":"PFL","link":"https://stackoverflow.com/users/31611150/pfl"},"is_answered":false,"view_count":3,"answer_count":0,"score":0,"last_activity_date":1759349068,"creation_date":1759349068,"question_id":79780431,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79780431/n8n-rest-api-always-returns-401-unauthorized-ce-docker-desktop-on-windows-11","title":"n8n REST API always returns 401 Unauthorized (CE, Docker Desktop on Windows 11)"}],"has_more":true,"quota_max":300,"quota_remaining":126} 
+ headers={'Date': 'Tue, 07 Oct 2025 12:41:18 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '830', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'CF-Ray': '98ad78d40ff570e9-MRS', 'CF-Cache-Status': 'DYNAMIC', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'private', 'Content-Encoding': 'gzip', 'Set-Cookie': 'prov=25d917fc-378a-45ed-be9b-a0c060db285b; expires=Wed, 07 Oct 2026 12:41:18 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly, __cflb=02DiuEqtkS4jGaTk6jRLVowZ76Z4qeo49eeW2De7PbncL; SameSite=Lax; path=/; expires=Wed, 08-Oct-25 11:41:18 GMT; HttpOnly, prov=25d917fc-378a-45ed-be9b-a0c060db285b; Path=/; HttpOnly; Domain=stackexchange.com, __cf_bm=RamASg.N7l_3FPLsJNGx4T9nAdGctH5OK5JisHxsYv8-1759840878-1.0.1.1-6ge46Jv9GBouOcIEGgWUlYhUKYmr.2MEsdmCcP_g2ZhZ820AYcog3gOYeNzO3YuZhm_.Nce_TzsMudwGH.12uG44PQakMZCTDk_usxDXpLY; path=/; expires=Tue, 07-Oct-25 13:11:18 GMT; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None, _cfuvid=pnm5kZfz9A4USO85KZz8bP0yji57WE7T3GkaHYNJf.g-1759840878881-0.0.1.1-604800000; path=/; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'accept-encoding', 'access-control-allow-credentials': 'false', 'access-control-allow-methods': 'GET, POST', 'content-security-policy': "upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com", 'x-clacks-overhead': 'GNU Terry Pratchett', 'x-content-type-options': 'nosniff', 'x-providence-cookie': '25d917fc-378a-45ed-be9b-a0c060db285b', 'x-request-guid': '6d0a993d-2aa0-4f87-8401-2b8d3e1dc1e5', 'x-worker-origin-response-time': '135000000'} 
+ body={"items":[{"tags":["react-native","nested","scrollview","gesture","react-native-gesture-handler"],"owner":{"account_id":1968575,"reputation":3733,"user_id":1768179,"user_type":"registered","accept_rate":50,"profile_image":"https://www.gravatar.com/avatar/a8ed54a29fb1321058b8f0e1625c4c0a?s=256&amp;d=identicon&amp;r=PG","display_name":"gentlee","link":"https://stackoverflow.com/users/1768179/gentlee"},"is_answered":false,"view_count":5,"answer_count":0,"score":-1,"last_activity_date":1759840421,"creation_date":1759840421,"question_id":79784544,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79784544/react-native-how-to-configure-priority-angle-for-nested-horizontal-vertical","title":"React Native: How to configure priority (angle) for nested horizontal / vertical scroll?"},{"tags":["r"],"owner":{"account_id":297886,"reputation":14473,"user_id":603625,"user_type":"registered","accept_rate":100,"profile_image":"https://www.gravatar.com/avatar/7f0367a760575233b45323de70682007?s=256&amp;d=identicon&amp;r=PG","display_name":"johannes","link":"https://stackoverflow.com/users/603625/johannes"},"is_answered":false,"view_count":5,"answer_count":0,"score":0,"last_activity_date":1759840360,"creation_date":1759840360,"question_id":79784542,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79784542/how-to-keep-the-order-of-terms-in-interactions-in-a-model-matrix","title":"How to keep the order of terms in interactions in a model matrix"},{"tags":["pdf","tagged-pdf","pdf-ua"],"owner":{"account_id":7295,"reputation":24588,"user_id":12631,"user_type":"registered","accept_rate":57,"profile_image":"https://i.sstatic.net/waRg3.png?s=256","display_name":"Horcrux7","link":"https://stackoverflow.com/users/12631/horcrux7"},"is_answered":false,"view_count":5,"answer_count":0,"score":0,"last_activity_date":1759840337,"creation_date":1759840337,"question_id":79784541,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79784541/newlines-in-taged-pdf-pdf-ua-are-lost","title":"Newlines in taged PDF (PDF/UA) are lost"}],"has_more":true,"quota_max":300,"quota_remaining":168} 
  </msg>
-<msg timestamp="20251001 22:12:28.568" level="INFO">${response} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20251001 22:12:28.033" endtime="20251001 22:12:28.569"/>
+<msg timestamp="20251007 14:41:25.240" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20251007 14:41:24.680" endtime="20251007 14:41:25.240"/>
 </kw>
-<msg timestamp="20251001 22:12:28.572" level="INFO">${response} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20251001 22:12:28.031" endtime="20251001 22:12:28.572"/>
+<msg timestamp="20251007 14:41:25.241" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20251007 14:41:24.678" endtime="20251007 14:41:25.241"/>
 </kw>
 <kw name="Get Time" library="BuiltIn">
 <var>${end}</var>
 <arg>epoch</arg>
 <doc>Returns the given time in the requested format.</doc>
-<msg timestamp="20251001 22:12:28.576" level="INFO">${end} = 1759349548</msg>
-<status status="PASS" starttime="20251001 22:12:28.575" endtime="20251001 22:12:28.576"/>
+<msg timestamp="20251007 14:41:25.243" level="INFO">${end} = 1759840885</msg>
+<status status="PASS" starttime="20251007 14:41:25.243" endtime="20251007 14:41:25.243"/>
 </kw>
 <kw name="Evaluate" library="BuiltIn">
 <var>${duration}</var>
 <arg>(${end} - ${start}) * 1000</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20251001 22:12:28.578" level="INFO">${duration} = 0</msg>
-<status status="PASS" starttime="20251001 22:12:28.577" endtime="20251001 22:12:28.578"/>
+<msg timestamp="20251007 14:41:25.245" level="INFO">${duration} = 1000</msg>
+<status status="PASS" starttime="20251007 14:41:25.244" endtime="20251007 14:41:25.245"/>
 </kw>
 <kw name="Append To List" library="Collections">
 <arg>${response_times}</arg>
 <arg>${duration}</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" starttime="20251001 22:12:28.579" endtime="20251001 22:12:28.580"/>
+<status status="PASS" starttime="20251007 14:41:25.246" endtime="20251007 14:41:25.247"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Utilisateur ${user}: ${duration}ms</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20251001 22:12:28.580" level="INFO">Utilisateur 1: 0ms</msg>
-<status status="PASS" starttime="20251001 22:12:28.580" endtime="20251001 22:12:28.580"/>
+<msg timestamp="20251007 14:41:25.248" level="INFO">Utilisateur 1: 1000ms</msg>
+<status status="PASS" starttime="20251007 14:41:25.247" endtime="20251007 14:41:25.248"/>
 </kw>
-<status status="PASS" starttime="20251001 22:12:28.024" endtime="20251001 22:12:28.581"/>
+<status status="PASS" starttime="20251007 14:41:24.673" endtime="20251007 14:41:25.249"/>
 </iter>
 <iter>
 <var name="${user}">2</var>
@@ -99,18 +99,18 @@
 <var>${start}</var>
 <arg>epoch</arg>
 <doc>Returns the given time in the requested format.</doc>
-<msg timestamp="20251001 22:12:28.583" level="INFO">${start} = 1759349548</msg>
-<status status="PASS" starttime="20251001 22:12:28.582" endtime="20251001 22:12:28.583"/>
+<msg timestamp="20251007 14:41:25.250" level="INFO">${start} = 1759840885</msg>
+<status status="PASS" starttime="20251007 14:41:25.250" endtime="20251007 14:41:25.250"/>
 </kw>
 <kw name="Setup API Test" library="config">
 <kw name="Create Session" library="RequestsLibrary">
 <arg>stackoverflow</arg>
 <arg>${API_BASE_URL}</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20251001 22:12:28.585" level="INFO">Creating Session using : alias=stackoverflow, url=https://api.stackexchange.com/2.3, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20251001 22:12:28.585" endtime="20251001 22:12:28.586"/>
+<msg timestamp="20251007 14:41:25.252" level="INFO">Creating Session using : alias=stackoverflow, url=https://api.stackexchange.com/2.3, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20251007 14:41:25.252" endtime="20251007 14:41:25.253"/>
 </kw>
-<status status="PASS" starttime="20251001 22:12:28.584" endtime="20251001 22:12:28.587"/>
+<status status="PASS" starttime="20251007 14:41:25.252" endtime="20251007 14:41:25.254"/>
 </kw>
 <kw name="Get Latest Questions" library="stackoverflow_api">
 <var>${response}</var>
@@ -122,57 +122,57 @@
 <arg>site=stackoverflow</arg>
 <arg>pagesize=${pagesize}</arg>
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<msg timestamp="20251001 22:12:28.588" level="INFO">&amp;{params} = { order=desc | sort=creation | site=stackoverflow | pagesize=3 }</msg>
-<status status="PASS" starttime="20251001 22:12:28.588" endtime="20251001 22:12:28.588"/>
+<msg timestamp="20251007 14:41:25.255" level="INFO">&amp;{params} = { order=desc | sort=creation | site=stackoverflow | pagesize=3 }</msg>
+<status status="PASS" starttime="20251007 14:41:25.255" endtime="20251007 14:41:25.255"/>
 </kw>
 <kw name="GET" library="RequestsLibrary">
 <var>${response}</var>
 <arg>${API_BASE_URL}${QUESTIONS_ENDPOINT}</arg>
 <arg>params=${params}</arg>
 <doc>Sends a GET request.</doc>
-<msg timestamp="20251001 22:12:29.139" level="INFO">GET Request : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
+<msg timestamp="20251007 14:41:25.749" level="INFO">GET Request : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
  path_url=/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
  headers={'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg timestamp="20251001 22:12:29.140" level="INFO">GET Response : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
+<msg timestamp="20251007 14:41:25.749" level="INFO">GET Response : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
  status=200, reason=OK 
- headers={'Date': 'Wed, 01 Oct 2025 20:12:28 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '904', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'CF-Ray': '987e9d770f09e163-MRS', 'CF-Cache-Status': 'DYNAMIC', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'private', 'Content-Encoding': 'gzip', 'Set-Cookie': 'prov=6a0ccd47-ff25-41aa-a8b5-ba12c2d915de; expires=Thu, 01 Oct 2026 20:12:28 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly, __cflb=02DiuEqtkS4jGaTk6jRLVowZ76Z4qeo48ovpmo7KbeXKJ; SameSite=Lax; path=/; expires=Thu, 02-Oct-25 19:12:28 GMT; HttpOnly, prov=6a0ccd47-ff25-41aa-a8b5-ba12c2d915de; Path=/; HttpOnly; Domain=stackexchange.com, __cf_bm=mkrwsqi99DrfvmYytmZsbBKOzUsFU2bA_Ayp3vrPShk-1759349548-1.0.1.1-4h5GocacmMw7y5aqpf8Ix7lve6pRdWCTd_h0bNR2DLkx_VPd_ngUbocLbRPNLbC1J26EH3BDy7tzgsejAwHlZdMeWYPqcwJR1um44BKemOQ; path=/; expires=Wed, 01-Oct-25 20:42:28 GMT; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None, _cfuvid=0Ho80Z3odQubDPvwdzPjaEs71kk2ZVulLUuVV1b8JOk-1759349548798-0.0.1.1-604800000; path=/; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'accept-encoding', 'access-control-allow-credentials': 'false', 'access-control-allow-methods': 'GET, POST', 'content-security-policy': "upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com", 'x-clacks-overhead': 'GNU Terry Pratchett', 'x-content-type-options': 'nosniff', 'x-providence-cookie': '6a0ccd47-ff25-41aa-a8b5-ba12c2d915de', 'x-request-guid': 'c5c6ec73-aec6-46f8-a57b-ca9843f28585', 'x-worker-origin-response-time': '139000000'} 
- body={"items":[{"tags":["ios","payment","apple-developer","apple-developer-enterprise"],"owner":{"account_id":11568709,"reputation":71,"user_id":8476100,"user_type":"registered","profile_image":"https://lh5.googleusercontent.com/-h2R-rosfcgg/AAAAAAAAAAI/AAAAAAAAAOY/bwawONOnBKs/s256-rj/photo.jpg","display_name":"IMAD UL-HASSAN","link":"https://stackoverflow.com/users/8476100/imad-ul-hassan"},"is_answered":false,"view_count":2,"answer_count":0,"score":0,"last_activity_date":1759349442,"creation_date":1759349442,"question_id":79780434,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79780434/apple-developer-membership-renewal-issue","title":"Apple developer memberShip Renewal Issue"},{"tags":["r","gtsummary"],"owner":{"account_id":40973609,"reputation":157,"user_id":30055639,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/7cb0ab297214ae7085a898dabfaeb640?s=256&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2","display_name":"Ranjan Karmakar","link":"https://stackoverflow.com/users/30055639/ranjan-karmakar"},"is_answered":false,"view_count":5,"answer_count":0,"score":0,"last_activity_date":1759349174,"creation_date":1759349174,"question_id":79780432,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79780432/gtsummary-header-counts-with-tbl-strata-nested-stack","title":"GTSUMMARY Header counts with TBL_STRATA_NESTED_STACK"},{"tags":["docker","automation","n8n"],"owner":{"account_id":44165059,"reputation":1,"user_id":31611150,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/472ceba0d489ce7bd2b1e39f7790c274?s=256&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2","display_name":"PFL","link":"https://stackoverflow.com/users/31611150/pfl"},"is_answered":false,"view_count":3,"answer_count":0,"score":0,"last_activity_date":1759349068,"creation_date":1759349068,"question_id":79780431,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79780431/n8n-rest-api-always-returns-401-unauthorized-ce-docker-desktop-on-windows-11","title":"n8n REST API always returns 401 Unauthorized (CE, Docker Desktop on Windows 11)"}],"has_more":true,"quota_max":300,"quota_remaining":126} 
+ headers={'Date': 'Tue, 07 Oct 2025 12:41:19 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '830', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'CF-Ray': '98ad78d73998e220-MRS', 'CF-Cache-Status': 'DYNAMIC', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'private', 'Content-Encoding': 'gzip', 'Set-Cookie': 'prov=792e4102-18c2-4810-803c-26a9fccf2d30; expires=Wed, 07 Oct 2026 12:41:19 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly, __cflb=02DiuEqtkS4jGaTk6jRLVowZ76Z4qeo49fPKYRCm1sT6k; SameSite=Lax; path=/; expires=Wed, 08-Oct-25 11:41:19 GMT; HttpOnly, prov=792e4102-18c2-4810-803c-26a9fccf2d30; Path=/; HttpOnly; Domain=stackexchange.com, __cf_bm=Vn9Wjb0cr2TFMWr54Cn5zR3e03y03GJ0xdAdaSde1Xw-1759840879-1.0.1.1-lGqKLIGTv0ijtJNdJGbYUPq81s5M4Bzir9qIEi22dyvTz5J8vNEz8uRNbIDRYlcqS1KV9cw6kBpSIf2q_R6v1GeL8ny6nRDOdhS1UJj5sG4; path=/; expires=Tue, 07-Oct-25 13:11:19 GMT; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None, _cfuvid=78147EmYihGkLozQ8mOFHwz.0EPFqlMl4AImahZ7stU-1759840879393-0.0.1.1-604800000; path=/; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'accept-encoding', 'access-control-allow-credentials': 'false', 'access-control-allow-methods': 'GET, POST', 'content-security-policy': "upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com", 'x-clacks-overhead': 'GNU Terry Pratchett', 'x-content-type-options': 'nosniff', 'x-providence-cookie': '792e4102-18c2-4810-803c-26a9fccf2d30', 'x-request-guid': 'ecd1c193-1bd7-4ed5-9ea6-19d70642837c', 'x-worker-origin-response-time': '130000000'} 
+ body={"items":[{"tags":["react-native","nested","scrollview","gesture","react-native-gesture-handler"],"owner":{"account_id":1968575,"reputation":3733,"user_id":1768179,"user_type":"registered","accept_rate":50,"profile_image":"https://www.gravatar.com/avatar/a8ed54a29fb1321058b8f0e1625c4c0a?s=256&amp;d=identicon&amp;r=PG","display_name":"gentlee","link":"https://stackoverflow.com/users/1768179/gentlee"},"is_answered":false,"view_count":5,"answer_count":0,"score":-1,"last_activity_date":1759840421,"creation_date":1759840421,"question_id":79784544,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79784544/react-native-how-to-configure-priority-angle-for-nested-horizontal-vertical","title":"React Native: How to configure priority (angle) for nested horizontal / vertical scroll?"},{"tags":["r"],"owner":{"account_id":297886,"reputation":14473,"user_id":603625,"user_type":"registered","accept_rate":100,"profile_image":"https://www.gravatar.com/avatar/7f0367a760575233b45323de70682007?s=256&amp;d=identicon&amp;r=PG","display_name":"johannes","link":"https://stackoverflow.com/users/603625/johannes"},"is_answered":false,"view_count":5,"answer_count":0,"score":0,"last_activity_date":1759840360,"creation_date":1759840360,"question_id":79784542,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79784542/how-to-keep-the-order-of-terms-in-interactions-in-a-model-matrix","title":"How to keep the order of terms in interactions in a model matrix"},{"tags":["pdf","tagged-pdf","pdf-ua"],"owner":{"account_id":7295,"reputation":24588,"user_id":12631,"user_type":"registered","accept_rate":57,"profile_image":"https://i.sstatic.net/waRg3.png?s=256","display_name":"Horcrux7","link":"https://stackoverflow.com/users/12631/horcrux7"},"is_answered":false,"view_count":5,"answer_count":0,"score":0,"last_activity_date":1759840337,"creation_date":1759840337,"question_id":79784541,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79784541/newlines-in-taged-pdf-pdf-ua-are-lost","title":"Newlines in taged PDF (PDF/UA) are lost"}],"has_more":true,"quota_max":300,"quota_remaining":168} 
  </msg>
-<msg timestamp="20251001 22:12:29.140" level="INFO">${response} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20251001 22:12:28.589" endtime="20251001 22:12:29.140"/>
+<msg timestamp="20251007 14:41:25.750" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20251007 14:41:25.256" endtime="20251007 14:41:25.750"/>
 </kw>
-<msg timestamp="20251001 22:12:29.150" level="INFO">${response} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20251001 22:12:28.587" endtime="20251001 22:12:29.150"/>
+<msg timestamp="20251007 14:41:25.751" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20251007 14:41:25.254" endtime="20251007 14:41:25.751"/>
 </kw>
 <kw name="Get Time" library="BuiltIn">
 <var>${end}</var>
 <arg>epoch</arg>
 <doc>Returns the given time in the requested format.</doc>
-<msg timestamp="20251001 22:12:29.152" level="INFO">${end} = 1759349549</msg>
-<status status="PASS" starttime="20251001 22:12:29.151" endtime="20251001 22:12:29.152"/>
+<msg timestamp="20251007 14:41:25.753" level="INFO">${end} = 1759840885</msg>
+<status status="PASS" starttime="20251007 14:41:25.752" endtime="20251007 14:41:25.753"/>
 </kw>
 <kw name="Evaluate" library="BuiltIn">
 <var>${duration}</var>
 <arg>(${end} - ${start}) * 1000</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20251001 22:12:29.154" level="INFO">${duration} = 1000</msg>
-<status status="PASS" starttime="20251001 22:12:29.153" endtime="20251001 22:12:29.154"/>
+<msg timestamp="20251007 14:41:25.755" level="INFO">${duration} = 0</msg>
+<status status="PASS" starttime="20251007 14:41:25.754" endtime="20251007 14:41:25.755"/>
 </kw>
 <kw name="Append To List" library="Collections">
 <arg>${response_times}</arg>
 <arg>${duration}</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" starttime="20251001 22:12:29.155" endtime="20251001 22:12:29.155"/>
+<status status="PASS" starttime="20251007 14:41:25.756" endtime="20251007 14:41:25.757"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Utilisateur ${user}: ${duration}ms</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20251001 22:12:29.156" level="INFO">Utilisateur 2: 1000ms</msg>
-<status status="PASS" starttime="20251001 22:12:29.156" endtime="20251001 22:12:29.156"/>
+<msg timestamp="20251007 14:41:25.758" level="INFO">Utilisateur 2: 0ms</msg>
+<status status="PASS" starttime="20251007 14:41:25.757" endtime="20251007 14:41:25.758"/>
 </kw>
-<status status="PASS" starttime="20251001 22:12:28.582" endtime="20251001 22:12:29.157"/>
+<status status="PASS" starttime="20251007 14:41:25.249" endtime="20251007 14:41:25.759"/>
 </iter>
 <iter>
 <var name="${user}">3</var>
@@ -180,18 +180,18 @@
 <var>${start}</var>
 <arg>epoch</arg>
 <doc>Returns the given time in the requested format.</doc>
-<msg timestamp="20251001 22:12:29.158" level="INFO">${start} = 1759349549</msg>
-<status status="PASS" starttime="20251001 22:12:29.158" endtime="20251001 22:12:29.158"/>
+<msg timestamp="20251007 14:41:25.760" level="INFO">${start} = 1759840885</msg>
+<status status="PASS" starttime="20251007 14:41:25.760" endtime="20251007 14:41:25.760"/>
 </kw>
 <kw name="Setup API Test" library="config">
 <kw name="Create Session" library="RequestsLibrary">
 <arg>stackoverflow</arg>
 <arg>${API_BASE_URL}</arg>
 <doc>Create Session: create a HTTP session to a server</doc>
-<msg timestamp="20251001 22:12:29.160" level="INFO">Creating Session using : alias=stackoverflow, url=https://api.stackexchange.com/2.3, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
-<status status="PASS" starttime="20251001 22:12:29.160" endtime="20251001 22:12:29.161"/>
+<msg timestamp="20251007 14:41:25.762" level="INFO">Creating Session using : alias=stackoverflow, url=https://api.stackexchange.com/2.3, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<status status="PASS" starttime="20251007 14:41:25.762" endtime="20251007 14:41:25.762"/>
 </kw>
-<status status="PASS" starttime="20251001 22:12:29.160" endtime="20251001 22:12:29.162"/>
+<status status="PASS" starttime="20251007 14:41:25.761" endtime="20251007 14:41:25.763"/>
 </kw>
 <kw name="Get Latest Questions" library="stackoverflow_api">
 <var>${response}</var>
@@ -203,101 +203,101 @@
 <arg>site=stackoverflow</arg>
 <arg>pagesize=${pagesize}</arg>
 <doc>Creates and returns a dictionary based on the given ``items``.</doc>
-<msg timestamp="20251001 22:12:29.163" level="INFO">&amp;{params} = { order=desc | sort=creation | site=stackoverflow | pagesize=3 }</msg>
-<status status="PASS" starttime="20251001 22:12:29.162" endtime="20251001 22:12:29.163"/>
+<msg timestamp="20251007 14:41:25.765" level="INFO">&amp;{params} = { order=desc | sort=creation | site=stackoverflow | pagesize=3 }</msg>
+<status status="PASS" starttime="20251007 14:41:25.764" endtime="20251007 14:41:25.765"/>
 </kw>
 <kw name="GET" library="RequestsLibrary">
 <var>${response}</var>
 <arg>${API_BASE_URL}${QUESTIONS_ENDPOINT}</arg>
 <arg>params=${params}</arg>
 <doc>Sends a GET request.</doc>
-<msg timestamp="20251001 22:12:29.650" level="INFO">GET Request : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
+<msg timestamp="20251007 14:41:26.477" level="INFO">GET Request : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
  path_url=/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
  headers={'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'} 
  body=None 
  </msg>
-<msg timestamp="20251001 22:12:29.651" level="INFO">GET Response : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
+<msg timestamp="20251007 14:41:26.477" level="INFO">GET Response : url=https://api.stackexchange.com/2.3/questions?order=desc&amp;sort=creation&amp;site=stackoverflow&amp;pagesize=3 
  status=200, reason=OK 
- headers={'Date': 'Wed, 01 Oct 2025 20:12:29 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '904', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'CF-Ray': '987e9d7a5c05e1ba-MRS', 'CF-Cache-Status': 'DYNAMIC', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'private', 'Content-Encoding': 'gzip', 'Set-Cookie': 'prov=572a8b2d-98b0-4b9e-85ed-a7126b08ae60; expires=Thu, 01 Oct 2026 20:12:29 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly, __cflb=02DiuEqtkS4jGaTk6jRLVowZ76Z4qeo48pfeHzfyDvBoi; SameSite=Lax; path=/; expires=Thu, 02-Oct-25 19:12:29 GMT; HttpOnly, prov=572a8b2d-98b0-4b9e-85ed-a7126b08ae60; Path=/; HttpOnly; Domain=stackexchange.com, __cf_bm=HZAAiMwmTehF_hdkf9jcTKeCigdjozNmswbonvvckSY-1759349549-1.0.1.1-inqisL0IbLmGqfvLxrxmuPSqiac0FUjssSj8bJrloVaVaV.pZqp0uxwswIycRrmjVD0CrJd9Z8MInmNjECkoqVa2gOdPOUNJw6GTaHZfs4Y; path=/; expires=Wed, 01-Oct-25 20:42:29 GMT; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None, _cfuvid=AayUloHtsAAGsFTqoaS4lGPshQmyawIzsgioC1Zu3oQ-1759349549336-0.0.1.1-604800000; path=/; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'accept-encoding', 'access-control-allow-credentials': 'false', 'access-control-allow-methods': 'GET, POST', 'content-security-policy': "upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com", 'x-clacks-overhead': 'GNU Terry Pratchett', 'x-content-type-options': 'nosniff', 'x-providence-cookie': '572a8b2d-98b0-4b9e-85ed-a7126b08ae60', 'x-request-guid': '89769072-8cb7-489b-9287-e70d7805b885', 'x-worker-origin-response-time': '130000000'} 
- body={"items":[{"tags":["ios","payment","apple-developer","apple-developer-enterprise"],"owner":{"account_id":11568709,"reputation":71,"user_id":8476100,"user_type":"registered","profile_image":"https://lh5.googleusercontent.com/-h2R-rosfcgg/AAAAAAAAAAI/AAAAAAAAAOY/bwawONOnBKs/s256-rj/photo.jpg","display_name":"IMAD UL-HASSAN","link":"https://stackoverflow.com/users/8476100/imad-ul-hassan"},"is_answered":false,"view_count":2,"answer_count":0,"score":0,"last_activity_date":1759349442,"creation_date":1759349442,"question_id":79780434,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79780434/apple-developer-membership-renewal-issue","title":"Apple developer memberShip Renewal Issue"},{"tags":["r","gtsummary"],"owner":{"account_id":40973609,"reputation":157,"user_id":30055639,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/7cb0ab297214ae7085a898dabfaeb640?s=256&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2","display_name":"Ranjan Karmakar","link":"https://stackoverflow.com/users/30055639/ranjan-karmakar"},"is_answered":false,"view_count":5,"answer_count":0,"score":0,"last_activity_date":1759349174,"creation_date":1759349174,"question_id":79780432,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79780432/gtsummary-header-counts-with-tbl-strata-nested-stack","title":"GTSUMMARY Header counts with TBL_STRATA_NESTED_STACK"},{"tags":["docker","automation","n8n"],"owner":{"account_id":44165059,"reputation":1,"user_id":31611150,"user_type":"registered","profile_image":"https://www.gravatar.com/avatar/472ceba0d489ce7bd2b1e39f7790c274?s=256&amp;d=identicon&amp;r=PG&amp;f=y&amp;so-version=2","display_name":"PFL","link":"https://stackoverflow.com/users/31611150/pfl"},"is_answered":false,"view_count":3,"answer_count":0,"score":0,"last_activity_date":1759349068,"creation_date":1759349068,"question_id":79780431,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79780431/n8n-rest-api-always-returns-401-unauthorized-ce-docker-desktop-on-windows-11","title":"n8n REST API always returns 401 Unauthorized (CE, Docker Desktop on Windows 11)"}],"has_more":true,"quota_max":300,"quota_remaining":124} 
+ headers={'Date': 'Tue, 07 Oct 2025 12:41:20 GMT', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '830', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'CF-Ray': '98ad78da5c10aead-MRS', 'CF-Cache-Status': 'DYNAMIC', 'Access-Control-Allow-Origin': '*', 'Cache-Control': 'private', 'Content-Encoding': 'gzip', 'Set-Cookie': 'prov=f733bd91-2f28-4a10-a0ac-56a39dbef1be; expires=Wed, 07 Oct 2026 12:41:20 GMT; domain=.stackexchange.com; path=/; secure; samesite=none; httponly, __cflb=02DiuEqtkS4jGaTk6jRLVowZ76Z4qeo49fPKYRCm1sT6k; SameSite=Lax; path=/; expires=Wed, 08-Oct-25 11:41:20 GMT; HttpOnly, prov=f733bd91-2f28-4a10-a0ac-56a39dbef1be; Path=/; HttpOnly; Domain=stackexchange.com, __cf_bm=s_xv7EwYxD1OsEiPIoxE.Lvs5G2UiDR1PEqDohg3cFA-1759840880-1.0.1.1-gVzbeRfgWnmNvjXpgqI3NB1o34rZ0Ro_1TFlc3Apr1Jr_ghe.EJ_827fGgghvHkLHOm1B7h8SW83mQqhxvM89jaIhfHQgb7sYNxwFUd_GOg; path=/; expires=Tue, 07-Oct-25 13:11:20 GMT; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None, _cfuvid=8jGLPIDRSPLxefMy_MtZlXsIu6E1GoVlbI5HsqzW7Yw-1759840880122-0.0.1.1-604800000; path=/; domain=.api.stackexchange.com; HttpOnly; Secure; SameSite=None', 'Strict-Transport-Security': 'max-age=31536000; includeSubDomains', 'Vary': 'accept-encoding', 'access-control-allow-credentials': 'false', 'access-control-allow-methods': 'GET, POST', 'content-security-policy': "upgrade-insecure-requests; frame-ancestors 'self' https://stackexchange.com", 'x-clacks-overhead': 'GNU Terry Pratchett', 'x-content-type-options': 'nosniff', 'x-providence-cookie': 'f733bd91-2f28-4a10-a0ac-56a39dbef1be', 'x-request-guid': '495400dd-a120-479b-a310-6e7fedb5731d', 'x-worker-origin-response-time': '365000000'} 
+ body={"items":[{"tags":["react-native","nested","scrollview","gesture","react-native-gesture-handler"],"owner":{"account_id":1968575,"reputation":3733,"user_id":1768179,"user_type":"registered","accept_rate":50,"profile_image":"https://www.gravatar.com/avatar/a8ed54a29fb1321058b8f0e1625c4c0a?s=256&amp;d=identicon&amp;r=PG","display_name":"gentlee","link":"https://stackoverflow.com/users/1768179/gentlee"},"is_answered":false,"view_count":5,"answer_count":0,"score":-1,"last_activity_date":1759840421,"creation_date":1759840421,"question_id":79784544,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79784544/react-native-how-to-configure-priority-angle-for-nested-horizontal-vertical","title":"React Native: How to configure priority (angle) for nested horizontal / vertical scroll?"},{"tags":["r"],"owner":{"account_id":297886,"reputation":14473,"user_id":603625,"user_type":"registered","accept_rate":100,"profile_image":"https://www.gravatar.com/avatar/7f0367a760575233b45323de70682007?s=256&amp;d=identicon&amp;r=PG","display_name":"johannes","link":"https://stackoverflow.com/users/603625/johannes"},"is_answered":false,"view_count":5,"answer_count":0,"score":0,"last_activity_date":1759840360,"creation_date":1759840360,"question_id":79784542,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79784542/how-to-keep-the-order-of-terms-in-interactions-in-a-model-matrix","title":"How to keep the order of terms in interactions in a model matrix"},{"tags":["pdf","tagged-pdf","pdf-ua"],"owner":{"account_id":7295,"reputation":24588,"user_id":12631,"user_type":"registered","accept_rate":57,"profile_image":"https://i.sstatic.net/waRg3.png?s=256","display_name":"Horcrux7","link":"https://stackoverflow.com/users/12631/horcrux7"},"is_answered":false,"view_count":5,"answer_count":0,"score":0,"last_activity_date":1759840337,"creation_date":1759840337,"question_id":79784541,"content_license":"CC BY-SA 4.0","link":"https://stackoverflow.com/questions/79784541/newlines-in-taged-pdf-pdf-ua-are-lost","title":"Newlines in taged PDF (PDF/UA) are lost"}],"has_more":true,"quota_max":300,"quota_remaining":166} 
  </msg>
-<msg timestamp="20251001 22:12:29.651" level="INFO">${response} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20251001 22:12:29.164" endtime="20251001 22:12:29.651"/>
+<msg timestamp="20251007 14:41:26.477" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20251007 14:41:25.766" endtime="20251007 14:41:26.477"/>
 </kw>
-<msg timestamp="20251001 22:12:29.654" level="INFO">${response} = &lt;Response [200]&gt;</msg>
-<status status="PASS" starttime="20251001 22:12:29.162" endtime="20251001 22:12:29.654"/>
+<msg timestamp="20251007 14:41:26.480" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<status status="PASS" starttime="20251007 14:41:25.764" endtime="20251007 14:41:26.480"/>
 </kw>
 <kw name="Get Time" library="BuiltIn">
 <var>${end}</var>
 <arg>epoch</arg>
 <doc>Returns the given time in the requested format.</doc>
-<msg timestamp="20251001 22:12:29.656" level="INFO">${end} = 1759349549</msg>
-<status status="PASS" starttime="20251001 22:12:29.655" endtime="20251001 22:12:29.656"/>
+<msg timestamp="20251007 14:41:26.482" level="INFO">${end} = 1759840886</msg>
+<status status="PASS" starttime="20251007 14:41:26.481" endtime="20251007 14:41:26.482"/>
 </kw>
 <kw name="Evaluate" library="BuiltIn">
 <var>${duration}</var>
 <arg>(${end} - ${start}) * 1000</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20251001 22:12:29.658" level="INFO">${duration} = 0</msg>
-<status status="PASS" starttime="20251001 22:12:29.657" endtime="20251001 22:12:29.658"/>
+<msg timestamp="20251007 14:41:26.484" level="INFO">${duration} = 1000</msg>
+<status status="PASS" starttime="20251007 14:41:26.483" endtime="20251007 14:41:26.484"/>
 </kw>
 <kw name="Append To List" library="Collections">
 <arg>${response_times}</arg>
 <arg>${duration}</arg>
 <doc>Adds ``values`` to the end of ``list``.</doc>
-<status status="PASS" starttime="20251001 22:12:29.659" endtime="20251001 22:12:29.660"/>
+<status status="PASS" starttime="20251007 14:41:26.485" endtime="20251007 14:41:26.485"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>Utilisateur ${user}: ${duration}ms</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20251001 22:12:29.660" level="INFO">Utilisateur 3: 0ms</msg>
-<status status="PASS" starttime="20251001 22:12:29.660" endtime="20251001 22:12:29.660"/>
+<msg timestamp="20251007 14:41:26.486" level="INFO">Utilisateur 3: 1000ms</msg>
+<status status="PASS" starttime="20251007 14:41:26.486" endtime="20251007 14:41:26.486"/>
 </kw>
-<status status="PASS" starttime="20251001 22:12:29.157" endtime="20251001 22:12:29.661"/>
+<status status="PASS" starttime="20251007 14:41:25.759" endtime="20251007 14:41:26.487"/>
 </iter>
-<status status="PASS" starttime="20251001 22:12:28.024" endtime="20251001 22:12:29.662"/>
+<status status="PASS" starttime="20251007 14:41:24.673" endtime="20251007 14:41:26.487"/>
 </for>
 <kw name="Evaluate" library="BuiltIn">
 <var>${avg}</var>
 <arg>sum(${response_times}) / len(${response_times})</arg>
 <doc>Evaluates the given expression in Python and returns the result.</doc>
-<msg timestamp="20251001 22:12:29.663" level="INFO">${avg} = 333.3333333333333</msg>
-<status status="PASS" starttime="20251001 22:12:29.662" endtime="20251001 22:12:29.663"/>
+<msg timestamp="20251007 14:41:26.489" level="INFO">${avg} = 666.6666666666666</msg>
+<status status="PASS" starttime="20251007 14:41:26.488" endtime="20251007 14:41:26.489"/>
 </kw>
 <kw name="Log" library="BuiltIn">
 <arg>📊 Temps moyen: ${avg}ms</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20251001 22:12:29.665" level="INFO">📊 Temps moyen: 333.3333333333333ms</msg>
-<status status="PASS" starttime="20251001 22:12:29.664" endtime="20251001 22:12:29.665"/>
+<msg timestamp="20251007 14:41:26.491" level="INFO">📊 Temps moyen: 666.6666666666666ms</msg>
+<status status="PASS" starttime="20251007 14:41:26.490" endtime="20251007 14:41:26.491"/>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <var>${results}</var>
 <arg>Performance Test - Average: ${avg}ms - Individual: ${response_times}</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<msg timestamp="20251001 22:12:29.666" level="INFO">${results} = Performance Test - Average: 333.3333333333333ms - Individual: [0, 1000, 0]</msg>
-<status status="PASS" starttime="20251001 22:12:29.666" endtime="20251001 22:12:29.667"/>
+<msg timestamp="20251007 14:41:26.493" level="INFO">${results} = Performance Test - Average: 666.6666666666666ms - Individual: [1000, 0, 1000]</msg>
+<status status="PASS" starttime="20251007 14:41:26.492" endtime="20251007 14:41:26.493"/>
 </kw>
 <kw name="Create File" library="OperatingSystem">
 <arg>${EXECDIR}/allure-results/test_results.txt</arg>
 <arg>${results}</arg>
 <doc>Creates a file with the given content and encoding.</doc>
-<msg timestamp="20251001 22:12:29.668" level="INFO" html="true">Created file '&lt;a href="file://c:\Users\Administrateur\Downloads\stackoverflow-test-project\allure-results\test_results.txt"&gt;c:\Users\Administrateur\Downloads\stackoverflow-test-project\allure-results\test_results.txt&lt;/a&gt;'.</msg>
-<status status="PASS" starttime="20251001 22:12:29.668" endtime="20251001 22:12:29.669"/>
+<msg timestamp="20251007 14:41:26.495" level="INFO" html="true">Created file '&lt;a href="file://c:\Users\Administrateur\Downloads\stackoverflow-robotframework-tests\allure-results\test_results.txt"&gt;c:\Users\Administrateur\Downloads\stackoverflow-robotframework-tests\allure-results\test_results.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20251007 14:41:26.494" endtime="20251007 14:41:26.495"/>
 </kw>
 <kw name="Teardown API Test" library="config">
 <kw name="Delete All Sessions" library="RequestsLibrary">
 <doc>Removes all the session objects</doc>
-<msg timestamp="20251001 22:12:29.670" level="INFO">Deleting All Sessions</msg>
-<status status="PASS" starttime="20251001 22:12:29.670" endtime="20251001 22:12:29.671"/>
+<msg timestamp="20251007 14:41:26.497" level="INFO">Deleting All Sessions</msg>
+<status status="PASS" starttime="20251007 14:41:26.497" endtime="20251007 14:41:26.498"/>
 </kw>
-<status status="PASS" starttime="20251001 22:12:29.670" endtime="20251001 22:12:29.672"/>
+<status status="PASS" starttime="20251007 14:41:26.497" endtime="20251007 14:41:26.499"/>
 </kw>
 <tag>api</tag>
 <tag>multi-user</tag>
 <tag>performance</tag>
-<status status="PASS" starttime="20251001 22:12:28.021" endtime="20251001 22:12:29.672"/>
+<status status="PASS" starttime="20251007 14:41:24.670" endtime="20251007 14:41:26.500"/>
 </test>
-<status status="PASS" starttime="20251001 22:12:27.653" endtime="20251001 22:12:30.797"/>
+<status status="PASS" starttime="20251007 14:41:24.259" endtime="20251007 14:41:27.617"/>
 </suite>
 <statistics>
 <total>

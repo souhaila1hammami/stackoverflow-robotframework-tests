@@ -23,9 +23,6 @@ Click Accept Cookies
     [Documentation]    Clique sur le bouton d'acceptation des cookies
     Click    ${ACCEPT_COOKIES_BUTTON}
     Log    ✅ Cookies acceptés
-Get First Question Title
-    Wait For Elements State    ${FIRST_QUESTION_TITLE_SELECTOR}    visible    timeout=5s
-    ${title}=    Get Text    ${FIRST_QUESTION_TITLE_SELECTOR}
-    [Return]    ${title}
+
 
     

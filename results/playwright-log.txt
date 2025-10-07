@@ -1,5 +1,5 @@
-{"level":30,"time":"2025-10-01T20:12:09.710Z","pid":288,"hostname":"NAJM-PC","msg":"Listening on 127.0.0.1:61058"}
-(node:288) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-10-07T12:41:05.462Z","pid":936,"hostname":"NAJM-PC","msg":"Listening on 127.0.0.1:63762"}
+(node:936) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
 ================= Original suppressed error =================
 Error: Browser has been closed.
@@ -14,10 +14,10 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:10.065Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:10.065Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:10.069Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:10.069Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:05.632Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:05.633Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:05.637Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:05.637Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12419:15)
@@ -31,10 +31,10 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:10.625Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:10.625Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:10.634Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:10.635Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:06.162Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:06.162Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:06.166Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:06.166Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12419:15)
@@ -48,8 +48,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:15.451Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:15.452Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:10.366Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:10.366Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12419:15)
@@ -63,12 +63,12 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:15.459Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:15.460Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:15.483Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:15.484Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:15.488Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:15.488Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:10.375Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:10.375Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:10.398Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:10.398Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:10.401Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:10.401Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12419:15)
@@ -82,8 +82,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:17.058Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.058Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:11.949Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:11.949Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12419:15)
@@ -97,12 +97,12 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:17.067Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.067Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.078Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.078Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.081Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.081Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:11.955Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:11.955Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:11.971Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:11.971Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:11.974Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:11.974Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12419:15)
@@ -116,8 +116,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:17.611Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.611Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:12.463Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:12.463Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12419:15)
@@ -131,46 +131,46 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:17.617Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.617Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.637Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.637Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.640Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.640Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:17.644Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-10-01T20:12:18.268Z","pid":288,"hostname":"NAJM-PC","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
-{"level":30,"time":"2025-10-01T20:12:18.269Z","pid":288,"hostname":"NAJM-PC","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-10-01T20:12:18.269Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-10-01T20:12:18.278Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-10-01T20:12:18.279Z","pid":288,"hostname":"NAJM-PC","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}}"}
-{"level":30,"time":"2025-10-01T20:12:18.279Z","pid":288,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@ee122f46a73842dcd915c75a5167e90a\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=662fb4e7-f3c8-4abd-921d-9c0fe62aea01\"}"}
-{"level":30,"time":"2025-10-01T20:12:18.279Z","pid":288,"hostname":"NAJM-PC","msg":"Trace file: "}
-{"level":30,"time":"2025-10-01T20:12:18.304Z","pid":288,"hostname":"NAJM-PC","msg":"Setting default timeout for context context=c6f475fa-8ef5-41fd-9463-b76c4d774dbf to 10000"}
-{"level":30,"time":"2025-10-01T20:12:18.304Z","pid":288,"hostname":"NAJM-PC","msg":"Changed active context: context=c6f475fa-8ef5-41fd-9463-b76c4d774dbf"}
-{"level":30,"time":"2025-10-01T20:12:18.304Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method newContext"}
-{"level":30,"time":"2025-10-01T20:12:18.313Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-10-01T20:12:18.314Z","pid":288,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@ee122f46a73842dcd915c75a5167e90a\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=c6f475fa-8ef5-41fd-9463-b76c4d774dbf\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@67a08ddcb1a0ef9ac0e0ce9566ffaf9c\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}},\"traceFile\":\"\"}],\"id\":\"browser=662fb4e7-f3c8-4abd-921d-9c0fe62aea01\"}"}
-{"level":30,"time":"2025-10-01T20:12:18.538Z","pid":288,"hostname":"NAJM-PC","msg":"Video path: undefined"}
-{"level":30,"time":"2025-10-01T20:12:18.539Z","pid":288,"hostname":"NAJM-PC","msg":"Changed active page"}
-{"level":30,"time":"2025-10-01T20:12:20.296Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method newPage"}
-{"level":30,"time":"2025-10-01T20:12:20.305Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:20.306Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:20.369Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:20.374Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method click"}
-{"level":30,"time":"2025-10-01T20:12:20.374Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:20.595Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method click"}
-{"level":30,"time":"2025-10-01T20:12:20.601Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:20.601Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"questions\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:20.630Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:20.635Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:20.635Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"questions\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:20.639Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:20.644Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getElementCount"}
-{"level":30,"time":"2025-10-01T20:12:20.644Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is disabled, return Locator: xpath=//h3[@class=\"s-post-summary--content-title\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:20.649Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getElementCount"}
-{"level":30,"time":"2025-10-01T20:12:20.655Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-10-01T20:12:20.671Z","pid":288,"hostname":"NAJM-PC","msg":"Removed page=fba4de9e-5aa1-4023-affa-c795a0481552 from context=c6f475fa-8ef5-41fd-9463-b76c4d774dbf page stack"}
-{"level":30,"time":"2025-10-01T20:12:20.914Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-10-07T12:41:12.469Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:12.469Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:12.512Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:12.512Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:12.515Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:12.515Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:12.519Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-10-07T12:41:13.149Z","pid":936,"hostname":"NAJM-PC","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
+{"level":30,"time":"2025-10-07T12:41:13.151Z","pid":936,"hostname":"NAJM-PC","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-10-07T12:41:13.151Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-10-07T12:41:13.160Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-10-07T12:41:13.161Z","pid":936,"hostname":"NAJM-PC","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}}"}
+{"level":30,"time":"2025-10-07T12:41:13.161Z","pid":936,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@12afda7a7ac7a97de488139f7003ae0f\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=ebea2290-f3c5-4ae6-8f2e-243d992b6426\"}"}
+{"level":30,"time":"2025-10-07T12:41:13.161Z","pid":936,"hostname":"NAJM-PC","msg":"Trace file: "}
+{"level":30,"time":"2025-10-07T12:41:13.189Z","pid":936,"hostname":"NAJM-PC","msg":"Setting default timeout for context context=1649f7c3-2656-496b-9c51-20ae1c0216fb to 10000"}
+{"level":30,"time":"2025-10-07T12:41:13.189Z","pid":936,"hostname":"NAJM-PC","msg":"Changed active context: context=1649f7c3-2656-496b-9c51-20ae1c0216fb"}
+{"level":30,"time":"2025-10-07T12:41:13.189Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method newContext"}
+{"level":30,"time":"2025-10-07T12:41:13.205Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-10-07T12:41:13.205Z","pid":936,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@12afda7a7ac7a97de488139f7003ae0f\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=1649f7c3-2656-496b-9c51-20ae1c0216fb\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@5dd1d4fd6029587a0db723c0cf711686\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}},\"traceFile\":\"\"}],\"id\":\"browser=ebea2290-f3c5-4ae6-8f2e-243d992b6426\"}"}
+{"level":30,"time":"2025-10-07T12:41:13.408Z","pid":936,"hostname":"NAJM-PC","msg":"Video path: undefined"}
+{"level":30,"time":"2025-10-07T12:41:13.408Z","pid":936,"hostname":"NAJM-PC","msg":"Changed active page"}
+{"level":30,"time":"2025-10-07T12:41:15.212Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method newPage"}
+{"level":30,"time":"2025-10-07T12:41:15.219Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:15.219Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:15.288Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:15.294Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method click"}
+{"level":30,"time":"2025-10-07T12:41:15.295Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:15.491Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method click"}
+{"level":30,"time":"2025-10-07T12:41:15.495Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:15.495Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"questions\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:15.519Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:15.524Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:15.525Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"questions\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:15.529Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:15.536Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2025-10-07T12:41:15.536Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is disabled, return Locator: xpath=//h3[@class=\"s-post-summary--content-title\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:15.539Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getElementCount"}
+{"level":30,"time":"2025-10-07T12:41:15.547Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-10-07T12:41:15.562Z","pid":936,"hostname":"NAJM-PC","msg":"Removed page=bb484d47-9914-4c22-9086-c21874585935 from context=1649f7c3-2656-496b-9c51-20ae1c0216fb page stack"}
+{"level":30,"time":"2025-10-07T12:41:15.874Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12419:15)
@@ -184,44 +184,44 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:20.920Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:20.920Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:20.923Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:20.923Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:20.926Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-10-01T20:12:21.141Z","pid":288,"hostname":"NAJM-PC","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
-{"level":30,"time":"2025-10-01T20:12:21.141Z","pid":288,"hostname":"NAJM-PC","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-10-01T20:12:21.142Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-10-01T20:12:21.149Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-10-01T20:12:21.149Z","pid":288,"hostname":"NAJM-PC","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}}"}
-{"level":30,"time":"2025-10-01T20:12:21.149Z","pid":288,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@74dc3fcb9cd918049ebd21f196b0b3f8\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=08797e35-aa64-4061-aee3-46d7faee81b3\"}"}
-{"level":30,"time":"2025-10-01T20:12:21.149Z","pid":288,"hostname":"NAJM-PC","msg":"Trace file: "}
-{"level":30,"time":"2025-10-01T20:12:21.160Z","pid":288,"hostname":"NAJM-PC","msg":"Setting default timeout for context context=43240476-a8c6-40b5-a2ba-f69bcc2c6a75 to 10000"}
-{"level":30,"time":"2025-10-01T20:12:21.160Z","pid":288,"hostname":"NAJM-PC","msg":"Changed active context: context=43240476-a8c6-40b5-a2ba-f69bcc2c6a75"}
-{"level":30,"time":"2025-10-01T20:12:21.160Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method newContext"}
-{"level":30,"time":"2025-10-01T20:12:21.166Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-10-01T20:12:21.166Z","pid":288,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@74dc3fcb9cd918049ebd21f196b0b3f8\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=43240476-a8c6-40b5-a2ba-f69bcc2c6a75\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@e8cdcb3b5cb0e6fec8222db29e402555\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}},\"traceFile\":\"\"}],\"id\":\"browser=08797e35-aa64-4061-aee3-46d7faee81b3\"}"}
-{"level":30,"time":"2025-10-01T20:12:21.359Z","pid":288,"hostname":"NAJM-PC","msg":"Video path: undefined"}
-{"level":30,"time":"2025-10-01T20:12:21.359Z","pid":288,"hostname":"NAJM-PC","msg":"Changed active page"}
-{"level":30,"time":"2025-10-01T20:12:23.098Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method newPage"}
-{"level":30,"time":"2025-10-01T20:12:23.105Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:23.105Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:23.141Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:23.147Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method click"}
-{"level":30,"time":"2025-10-01T20:12:23.148Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:23.343Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method click"}
-{"level":30,"time":"2025-10-01T20:12:23.349Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:23.349Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"questions\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:23.378Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:23.384Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:23.384Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:23.390Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:23.395Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method click"}
-{"level":30,"time":"2025-10-01T20:12:23.395Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:23.438Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method click"}
-{"level":30,"time":"2025-10-01T20:12:23.444Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-10-01T20:12:23.513Z","pid":288,"hostname":"NAJM-PC","msg":"Removed page=8738e3e0-9bed-4560-ba51-c2e0b02c2cd1 from context=43240476-a8c6-40b5-a2ba-f69bcc2c6a75 page stack"}
-{"level":30,"time":"2025-10-01T20:12:23.739Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-10-07T12:41:15.882Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:15.882Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:15.885Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:15.885Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:15.888Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-10-07T12:41:16.116Z","pid":936,"hostname":"NAJM-PC","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
+{"level":30,"time":"2025-10-07T12:41:16.116Z","pid":936,"hostname":"NAJM-PC","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-10-07T12:41:16.116Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-10-07T12:41:16.123Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-10-07T12:41:16.123Z","pid":936,"hostname":"NAJM-PC","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}}"}
+{"level":30,"time":"2025-10-07T12:41:16.123Z","pid":936,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@f7a3555a26e0494ac2fdcc2e6c96ea1c\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=aea79a1e-470b-4c1e-8d12-7388b0035cec\"}"}
+{"level":30,"time":"2025-10-07T12:41:16.123Z","pid":936,"hostname":"NAJM-PC","msg":"Trace file: "}
+{"level":30,"time":"2025-10-07T12:41:16.138Z","pid":936,"hostname":"NAJM-PC","msg":"Setting default timeout for context context=6dfcdd49-6374-46ec-a65f-e565e296b5fe to 10000"}
+{"level":30,"time":"2025-10-07T12:41:16.138Z","pid":936,"hostname":"NAJM-PC","msg":"Changed active context: context=6dfcdd49-6374-46ec-a65f-e565e296b5fe"}
+{"level":30,"time":"2025-10-07T12:41:16.138Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method newContext"}
+{"level":30,"time":"2025-10-07T12:41:16.148Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-10-07T12:41:16.149Z","pid":936,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@f7a3555a26e0494ac2fdcc2e6c96ea1c\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=6dfcdd49-6374-46ec-a65f-e565e296b5fe\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@ce441284b836232d317a58bcc8fbf825\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}},\"traceFile\":\"\"}],\"id\":\"browser=aea79a1e-470b-4c1e-8d12-7388b0035cec\"}"}
+{"level":30,"time":"2025-10-07T12:41:16.400Z","pid":936,"hostname":"NAJM-PC","msg":"Video path: undefined"}
+{"level":30,"time":"2025-10-07T12:41:16.400Z","pid":936,"hostname":"NAJM-PC","msg":"Changed active page"}
+{"level":30,"time":"2025-10-07T12:41:18.140Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method newPage"}
+{"level":30,"time":"2025-10-07T12:41:18.146Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:18.147Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:18.179Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:18.183Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method click"}
+{"level":30,"time":"2025-10-07T12:41:18.183Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:18.216Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method click"}
+{"level":30,"time":"2025-10-07T12:41:18.222Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:18.222Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"questions\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:18.356Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:18.363Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:18.363Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:18.396Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:18.402Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method click"}
+{"level":30,"time":"2025-10-07T12:41:18.402Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:18.446Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method click"}
+{"level":30,"time":"2025-10-07T12:41:18.453Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-10-07T12:41:18.515Z","pid":936,"hostname":"NAJM-PC","msg":"Removed page=fe9783f1-aac5-487c-a0aa-8e32186c4af2 from context=6dfcdd49-6374-46ec-a65f-e565e296b5fe page stack"}
+{"level":30,"time":"2025-10-07T12:41:18.749Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12419:15)
@@ -235,45 +235,45 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:23.744Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:23.744Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:23.748Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:23.748Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:23.751Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-10-01T20:12:23.972Z","pid":288,"hostname":"NAJM-PC","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
-{"level":30,"time":"2025-10-01T20:12:23.972Z","pid":288,"hostname":"NAJM-PC","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-10-01T20:12:23.972Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-10-01T20:12:23.979Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method newContext"}
-{"level":30,"time":"2025-10-01T20:12:23.979Z","pid":288,"hostname":"NAJM-PC","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}}"}
-{"level":30,"time":"2025-10-01T20:12:23.979Z","pid":288,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4e4d0bd17de5de22fd52883c9afb8a90\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=7b72d519-ad12-43fd-b7cd-c8262e869b18\"}"}
-{"level":30,"time":"2025-10-01T20:12:23.979Z","pid":288,"hostname":"NAJM-PC","msg":"Trace file: "}
-{"level":30,"time":"2025-10-01T20:12:23.989Z","pid":288,"hostname":"NAJM-PC","msg":"Setting default timeout for context context=b931cc28-e1c0-4a43-a348-5f14d39ea606 to 10000"}
-{"level":30,"time":"2025-10-01T20:12:23.989Z","pid":288,"hostname":"NAJM-PC","msg":"Changed active context: context=b931cc28-e1c0-4a43-a348-5f14d39ea606"}
-{"level":30,"time":"2025-10-01T20:12:23.989Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method newContext"}
-{"level":30,"time":"2025-10-01T20:12:24.644Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-10-01T20:12:24.644Z","pid":288,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@4e4d0bd17de5de22fd52883c9afb8a90\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=b931cc28-e1c0-4a43-a348-5f14d39ea606\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@f504e1fa12a52f2dd39265b143ad8474\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}},\"traceFile\":\"\"}],\"id\":\"browser=7b72d519-ad12-43fd-b7cd-c8262e869b18\"}"}
-{"level":30,"time":"2025-10-01T20:12:24.788Z","pid":288,"hostname":"NAJM-PC","msg":"Video path: undefined"}
-{"level":30,"time":"2025-10-01T20:12:24.788Z","pid":288,"hostname":"NAJM-PC","msg":"Changed active page"}
-{"level":30,"time":"2025-10-01T20:12:26.400Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method newPage"}
-{"level":30,"time":"2025-10-01T20:12:26.407Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:26.407Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:26.478Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:26.483Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method click"}
-{"level":30,"time":"2025-10-01T20:12:26.483Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:26.653Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method click"}
-{"level":30,"time":"2025-10-01T20:12:26.658Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:26.658Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"questions\"] in page."}
-{"level":30,"time":"2025-10-01T20:12:26.663Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:26.668Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:26.668Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div[6]/div[3]/div[1]/div[3]/div[1]/div[2]/h3/a in page."}
-{"level":30,"time":"2025-10-01T20:12:26.672Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-10-01T20:12:26.677Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getText"}
-{"level":30,"time":"2025-10-01T20:12:26.677Z","pid":288,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div[6]/div[3]/div[1]/div[3]/div[1]/div[2]/h3/a in page."}
-{"level":30,"time":"2025-10-01T20:12:26.711Z","pid":288,"hostname":"NAJM-PC","msg":"Retrieved text for element xpath=/html/body/div[6]/div[3]/div[1]/div[3]/div[1]/div[2]/h3/a containing Apple developer memberShip Renewal Issue"}
-{"level":30,"time":"2025-10-01T20:12:26.711Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getText"}
-{"level":30,"time":"2025-10-01T20:12:26.719Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method closeBrowser"}
-{"level":30,"time":"2025-10-01T20:12:26.727Z","pid":288,"hostname":"NAJM-PC","msg":"Removed page=197209e4-1099-43b2-82a1-b97d5e96252e from context=b931cc28-e1c0-4a43-a348-5f14d39ea606 page stack"}
-{"level":30,"time":"2025-10-01T20:12:26.964Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-10-07T12:41:18.756Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:18.756Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:18.760Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:18.760Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:18.763Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-10-07T12:41:18.996Z","pid":936,"hostname":"NAJM-PC","msg":"Adding browser to stack: chromium, version: 140.0.7339.186"}
+{"level":30,"time":"2025-10-07T12:41:18.996Z","pid":936,"hostname":"NAJM-PC","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-10-07T12:41:18.996Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-10-07T12:41:19.003Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-10-07T12:41:19.003Z","pid":936,"hostname":"NAJM-PC","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}}"}
+{"level":30,"time":"2025-10-07T12:41:19.003Z","pid":936,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@e377e56883b57c1c5964bb1ad00a9664\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=c1470c7c-0263-4f52-8b40-79c1b7848b71\"}"}
+{"level":30,"time":"2025-10-07T12:41:19.003Z","pid":936,"hostname":"NAJM-PC","msg":"Trace file: "}
+{"level":30,"time":"2025-10-07T12:41:19.011Z","pid":936,"hostname":"NAJM-PC","msg":"Setting default timeout for context context=41d88856-9317-492b-98e5-770aeb2006e7 to 10000"}
+{"level":30,"time":"2025-10-07T12:41:19.011Z","pid":936,"hostname":"NAJM-PC","msg":"Changed active context: context=41d88856-9317-492b-98e5-770aeb2006e7"}
+{"level":30,"time":"2025-10-07T12:41:19.012Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method newContext"}
+{"level":30,"time":"2025-10-07T12:41:19.689Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-10-07T12:41:19.689Z","pid":936,"hostname":"NAJM-PC","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@e377e56883b57c1c5964bb1ad00a9664\"},\"headless\":false,\"_contextStack\":[{\"id\":\"context=41d88856-9317-492b-98e5-770aeb2006e7\",\"c\":{\"_type\":\"BrowserContext\",\"_guid\":\"browser-context@cced6764c3ec0a15c7e294b0ded2f4f2\"},\"pageStack\":[],\"options\":{\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":1080,\"width\":1920}},\"traceFile\":\"\"}],\"id\":\"browser=c1470c7c-0263-4f52-8b40-79c1b7848b71\"}"}
+{"level":30,"time":"2025-10-07T12:41:19.833Z","pid":936,"hostname":"NAJM-PC","msg":"Video path: undefined"}
+{"level":30,"time":"2025-10-07T12:41:19.833Z","pid":936,"hostname":"NAJM-PC","msg":"Changed active page"}
+{"level":30,"time":"2025-10-07T12:41:22.066Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method newPage"}
+{"level":30,"time":"2025-10-07T12:41:22.071Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:22.071Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:22.106Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:22.110Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method click"}
+{"level":30,"time":"2025-10-07T12:41:22.110Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//button[@id=\"onetrust-accept-btn-handler\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:22.315Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method click"}
+{"level":30,"time":"2025-10-07T12:41:22.320Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:22.321Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=//div[@id=\"questions\"] in page."}
+{"level":30,"time":"2025-10-07T12:41:22.346Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:22.352Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:22.352Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div[5]/div[3]/div[1]/div[3]/div[1]/div[2]/h3 in page."}
+{"level":30,"time":"2025-10-07T12:41:22.357Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-10-07T12:41:22.362Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getText"}
+{"level":30,"time":"2025-10-07T12:41:22.362Z","pid":936,"hostname":"NAJM-PC","msg":"Strict mode is enabled, find Locator with xpath=/html/body/div[5]/div[3]/div[1]/div[3]/div[1]/div[2]/h3 in page."}
+{"level":30,"time":"2025-10-07T12:41:22.401Z","pid":936,"hostname":"NAJM-PC","msg":"Retrieved text for element xpath=/html/body/div[5]/div[3]/div[1]/div[3]/div[1]/div[2]/h3 containing React Native: How to configure priority (angle) for nested horizontal / vertical scroll?"}
+{"level":30,"time":"2025-10-07T12:41:22.401Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getText"}
+{"level":30,"time":"2025-10-07T12:41:22.411Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-10-07T12:41:22.422Z","pid":936,"hostname":"NAJM-PC","msg":"Removed page=6c7c4b57-bae5-40b4-9270-65370201ed4f from context=41d88856-9317-492b-98e5-770aeb2006e7 page stack"}
+{"level":30,"time":"2025-10-07T12:41:22.713Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method closeBrowser"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12419:15)
@@ -287,8 +287,8 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:26.969Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:26.969Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:22.718Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:22.718Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
 ================= Original suppressed error =================
 Error: Browser has been closed.
     at PlaywrightState.getActiveBrowser (C:\Users\Administrateur\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12419:15)
@@ -302,7 +302,7 @@ Error: Browser has been closed.
     at endReadableNT (node:internal/streams/readable:1701:12)
     at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
 =============================================================
-{"level":30,"time":"2025-10-01T20:12:26.977Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:26.977Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-10-01T20:12:27.081Z","pid":288,"hostname":"NAJM-PC","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-10-01T20:12:27.081Z","pid":288,"hostname":"NAJM-PC","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-10-07T12:41:22.725Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:22.725Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-10-07T12:41:23.679Z","pid":936,"hostname":"NAJM-PC","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-10-07T12:41:23.679Z","pid":936,"hostname":"NAJM-PC","msg":"End of node method closeAllBrowsers"}

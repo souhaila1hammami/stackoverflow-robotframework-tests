@@ -7,3 +7,9 @@ Verify Page Loaded
     ${count}=    Get Element Count    ${QUESTIONS_SELECTOR}
     Should Be True    ${count} > 0
     [Return]    ${count}
+
+
+Get First Question Title
+    Wait For Elements State    ${FIRST_QUESTION_TITLE_SELECTOR}    visible    timeout=500s
+    ${title}=    Get Text    ${FIRST_QUESTION_TITLE_SELECTOR}
+    [Return]    ${title}
